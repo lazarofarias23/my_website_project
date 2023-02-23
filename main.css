@@ -1,0 +1,111 @@
+. {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;    
+}
+
+header,
+section h2,
+section h3,
+form button {
+    font-family: 'Bungee', cursive;
+    font-weight: normal;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+body > header {
+    background-color: #3D996E;
+    padding: 16px 0;
+    color: #f5f6fa;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header li {
+    display: inline;
+    margin-left: 16px;
+}
+
+header li a {
+    color: #f5f6fa;
+    text-decoration: none;
+}
+
+.container {
+    width: 1280px;
+    margin: 0 auto;
+}
+
+.articles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: justify;
+}
+
+.articles article img {
+    width: 90%;
+}
+
+.articles article {
+    width: 50%;
+}
+
+section {
+    padding: 16px 0;
+}
+
+section h2 .articles article {
+    margin-bottom: 16px;
+}
+
+.articles article h3 {
+    margin-top: 8px;
+    margin-bottom: 16px;
+}
+
+.articles article h3 {
+    font-size: 24px;
+}
+
+section h2 {
+    font-size: 32px;
+}
+
+#introduction {
+    background-color: #E68273;
+}
+
+#megadrive {
+    background-color: #3D996E;
+}
+
+#supernintendo {
+    background-color: #E68273;
+}
+
+#play {
+    background-color: #3D996E;
+}
+
+#nintendowii {
+    background-color: #E68273;
+}
+
+#pc {
+    background-color: #3D996E;
+}
+
+footer {
+    background-color: #E68273;
+    color: #ecf0f1;
+    padding: 16px 0;
+    text-align: center;
+}
