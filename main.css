@@ -19,7 +19,7 @@ body {
 body > header {
     background-color: #3D996E;
     padding: 16px 0;
-    color: #f5f6fa;
+    color: #ecf0f1;
 }
 
 header .container {
@@ -31,10 +31,11 @@ header .container {
 header li {
     display: inline;
     margin-left: 16px;
+    font-size: 18px;
 }
 
 header li a {
-    color: #f5f6fa;
+    color: #ecf0f1;
     text-decoration: none;
 }
 
@@ -79,6 +80,61 @@ section h2 {
     font-size: 32px;
 }
 
+#contact .container {
+    display: block;
+}
+
+.social-links img {
+    height: 24px;
+}
+
+.social-links li {
+    display: inline;
+    margin-right: 8px;
+}
+
+.social-links li a {
+    text-decoration: none;
+}
+
+.contact-methods {
+    display: flex;
+    justify-content: space-between;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea {
+    resize: none;
+    height: 180px;
+}
+
+section h3 {
+    margin-bottom: 16px;
+}
+
+font button {
+    background-color: #E68273;
+    color: #ecf0f1;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #E68273;
+}
+
+input:focus, textarea:focus {
+    outline-color: #182c61;
+}
+
 #introduction {
     background-color: #E68273;
 }
@@ -104,7 +160,7 @@ section h2 {
 }
 
 footer {
-    background-color: #E68273;
+    background-color: #3D996E;
     color: #ecf0f1;
     padding: 16px 0;
     text-align: center;
